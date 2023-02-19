@@ -1,20 +1,18 @@
 import React from 'react'
+import {TitleProps} from '@/interfaces/app_interfaces'
 
-interface TitleProps {
+interface TitleAtom extends TitleProps {
   level: string,
-  text: string,
-  styles?: string,
-  size?: string
 }
 
-export const Title = ({level, text, styles = 'text-center', size = '35'}: TitleProps): JSX.Element => {
+export const Title = ({level, title, styles = 'text-center'}: TitleAtom): JSX.Element => {
 
   return (
     <>
-      {level === 'h1' && <h1 className={`title-mobile md:text-[${size}px] ${styles}`}>{text}</h1>}
-      {level === 'h2' && <h1 className={`title-mobile md:text-[${size}] ${styles}`}>{text}</h1>}
-      {level === 'h3' && <h1 className={`title-mobile md:text-[${size}] ${styles}`}>{text}</h1>}
-      {level === 'h4' && <h1 className={`title-mobile md:text-[${size}] ${styles}`}>{text}</h1>}
+      {level === 'h1' && <h1 className={`title ${styles}`}>{title}</h1>}
+      {level === 'h2' && <h2 className={`title  ${styles}`}>{title}</h2>}
+      {level === 'h3' && <h3 className={`title ${styles}`}>{title}</h3>}
+      {level === 'h4' && <h4 className={`title ${styles}`}>{title}</h4>}
     </>
   )
   

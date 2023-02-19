@@ -1,8 +1,4 @@
-import React, {ReactNode} from 'react';
-
-interface ContainerProp {
-  children: ReactNode
-}
+import {ContainerProp} from '@/interfaces/app_interfaces'
 
 const Wrapper = ({ children }: ContainerProp) => {
   return (

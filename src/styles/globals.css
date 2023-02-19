@@ -11,8 +11,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.title-mobile {
+.title {
   font-size: 28px;
   font-weight: 600;
   line-height: 40px;
+}
+
+@media screen and (min-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
 }

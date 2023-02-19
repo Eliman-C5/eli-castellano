@@ -1,1 +1,0 @@
-//Add spanish and english texts
