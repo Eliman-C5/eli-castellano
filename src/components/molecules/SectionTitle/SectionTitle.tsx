@@ -3,7 +3,7 @@ import {Title} from '@/components/atoms/Title/Title'
 import {TitleProps} from '@/interfaces/app_interfaces'
 
 interface SectionTitleProps extends TitleProps {
-  text: string
+  text?: string
 }
 
 /////Comenzar a usar bien las interfaces (Ver proyecto de curso de YT, repo de Midu y documentacion). 

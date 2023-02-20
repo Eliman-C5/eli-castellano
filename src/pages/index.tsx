@@ -7,7 +7,7 @@ import { About } from '@/components/templates/About/About'
 import { Experience } from '@/components/templates/Experience/Experience'
 import { Portfolio } from '@/components/templates/Portfolio/Portfolio'
 import { Services } from '@/components/templates/Services/Services'
-import { Contact } from '@/components/templates/Contact/Contact'
+import { Footer } from '@/components/templates/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +23,7 @@ export default function Home() {
         <Experience />
         <Portfolio />
         <Services />
-        <Contact />
+        <Footer />
       </main>
     </>
   )
