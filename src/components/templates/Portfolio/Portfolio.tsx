@@ -1,11 +1,11 @@
 import { PortfolioSection } from '@/components/organisms/PortfolioSection/PortfolioSection'
 import React from 'react'
-import Wrapper from '../Wrapper/Wrapper'
+import { Section } from '../Wrapper/Section'
 
 export const Portfolio = () => {
   return (
-    <Wrapper>
+    <Section>
       <PortfolioSection />
-    </Wrapper>
+    </Section>
   )
 }

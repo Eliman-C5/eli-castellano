@@ -4,6 +4,11 @@ export const presentation = {
   eng: `I'm Eli Castellano`
 }
 
+export const charge = {
+  esp: 'Desarrollador Frontend',
+  eng: 'Frontend Developer'
+}
+
 export const servicesTexts = {
   eng: [
     {
@@ -57,6 +62,10 @@ export const aboutDesc= {
       id: 2,
       text: `Learning about programming took me to raise awareness about a life based on life long learning. And, while I was developing my projects I could improve my english skills at academies. I'm also a books and movies lover in my free time.`
     },
+    {
+      id: 3,
+      text: `Lately, I've been creating projects using ReactJS, NextJS, TailwindCSS and Typescript. I like solving challenges on websites like Frontend Mentor and HackerRank. I currently work with a freelance client base and am open for new opportunities`
+    }
   ],
   esp: [
     {
@@ -67,6 +76,10 @@ export const aboutDesc= {
       id: 2,
       text: 'Aprender sobre programación me llevó a crear conciencia sobre una vida basada en el aprendizaje permanente. Y, mientras desarrollaba mis proyectos, pude mejorar mis habilidades de inglés en las academias. También soy amante de los libros y el cine en mi tiempo libre.'
     },
+    {
+      id: 3,
+      text: `Últimamente, he estado creando proyectos usando ReactJS, NextJS, TailwindCSS y Typescript. Me gusta resolver retos retos en sitios web como Frontend Mentor y HackerRank. Actualmente trabajo con una base de clientes independientes y estoy abierto a nuevas oportunidades.`
+    }
   ]
 }
 

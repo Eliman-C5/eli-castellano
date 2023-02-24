@@ -1,11 +1,11 @@
 import React from 'react'
-import Wrapper from '../Wrapper/Wrapper'
 import { HeaderSection } from '@/components/organisms/HeaderSection/HeaderSection'
+import { Section } from '../Wrapper/Section'
 
 export const Header = () => {
   return (
-    <Wrapper>
+    <Section>
       <HeaderSection />
-    </Wrapper>
+    </Section>
   )
 }

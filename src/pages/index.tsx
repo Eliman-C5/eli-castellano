@@ -4,10 +4,9 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Header } from '@/components/templates/Header/Header'
 import { About } from '@/components/templates/About/About'
-import { Experience } from '@/components/templates/Experience/Experience'
 import { Portfolio } from '@/components/templates/Portfolio/Portfolio'
 import { Services } from '@/components/templates/Services/Services'
-import { Footer } from '@/components/templates/Footer/Footer'
+import { Contact } from '@/components/templates/Contact/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,10 +19,9 @@ export default function Home() {
       <main>
         <Header />
         <About />
-        <Experience />
         <Portfolio />
         <Services />
-        <Footer />
+        <Contact />
       </main>
     </>
   )

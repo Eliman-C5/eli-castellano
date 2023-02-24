@@ -1,11 +1,11 @@
 import { FooterSection } from '@/components/organisms/FooterSection/FooterSection'
 import React from 'react'
-import Wrapper from '../Wrapper/Wrapper'
+import { Section } from '../Wrapper/Section'
 
 export const Footer = () => {
   return (
-    <Wrapper styles='mt-[80px] md:mt-[120px] mb-[20px]'>
+    <Section styles='mt-[80px] md:mt-[120px] mb-[20px]'>
       <FooterSection />
-    </Wrapper>
+    </Section>
   )
 }

@@ -10,7 +10,13 @@ export const ServicesSection = () => {
 
   return (
     <div>
-      <SectionTitle title={isSpanishActive ? 'Mis Servicios' : 'My Services'} text='tttrgrg' />
+      <SectionTitle 
+        title={isSpanishActive ? 'Mis Servicios' : 'My Services'} 
+        text={isSpanishActive ?
+          "Como frontend developer he trabajado en variedad de proyectos que me permiten ofrecer servicios como:" :
+          "As a frontend developer I've worked on a variety of projects that allow me to offer services such as:"
+        } 
+      />
       <div className="flex flex-col md:flex-row gap-4 justify-center mt-8">
       {
         isSpanishActive ?

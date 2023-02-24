@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* FFB400 (Amarillo) */
+/* #007CF0 (Azul)
+   #00DFD8
+*/
+/* linear-gradient(90deg,var(--start-color),var(--end-color)) */
 
 body {
   font-size: 18px;
@@ -13,13 +16,28 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.gradient-effect {
+  background: linear-gradient(90deg, #007CF0, #00DFD8)
+}
+
+.gradient-text {
+  background-color: #007CF0;
+  background-image: linear-gradient(90deg, #007CF0, #00DFD8);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  
+}
+
 p {
   line-height: 170%;
   margin-bottom: 3vh;
 }
 
 .title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 40px;
 }
@@ -42,9 +60,16 @@ p {
   line-height: 30px;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
 @media screen and (min-width: 600px) {
+
   .title {
-    font-size: 35px;
+    font-size: 40px;
   }
   
   .title-h2 {
@@ -58,4 +83,63 @@ p {
   .title-h4 {
     font-size: 22px;
   }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background: linear-gradient(90deg, #007CF0, #00DFD8);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px linear-gradient(90deg, #007CF0, #00DFD8);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(29px);
+  -ms-transform: translateX(29px);
+  transform: translateX(29px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }
