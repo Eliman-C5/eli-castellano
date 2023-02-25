@@ -4,7 +4,7 @@ import { Section } from '../Wrapper/Section'
 
 export const Navbar = () => {
   return (
-    <Section>
+    <Section styles='mt-[20px]'>
       <NavbarSection />
     </Section>
   )

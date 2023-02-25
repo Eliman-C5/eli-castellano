@@ -7,7 +7,7 @@ interface SectionProps extends ContainerProp {
   styles?: string
 }
 
-export const Section = ({children, styles = ''}: SectionProps) => {
+export const Section = ({children, styles}: SectionProps) => {
   return (
     <Wrapper styles={styles}>
       <FadeIn className=''>{children}</FadeIn>

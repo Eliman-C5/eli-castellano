@@ -1,0 +1,38 @@
+// import React, { useRef } from "react";
+
+type Props = {
+  text: string;
+  buttonText: string;
+  styles: string
+};
+
+export const CopyToClipboard = ({ text, buttonText, styles }: Props) => {
+
+  // const tempElementRef = useRef<HTMLTextAreaElement>(null);
+
+  const handleClick = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      //alert("Texto copiado al portapapeles!");
+    } catch (err) {
+      console.error("Error al copiar al portapapeles: ", err);
+    }
+  };
+
+  return (
+    <div className={`${styles}`}>
+      {/* <textarea ref={tempElementRef} style={{ position: "absolute", left: "-9999px" }} /> */}
+      <button
+        onClick={(event) => {
+          event.currentTarget.textContent = 'Email was copied!'
+          handleClick()
+        }}
+        onMouseEnter={(event) => (event.currentTarget.textContent = "Copy to clipboard")}
+        onMouseLeave={(event) => (event.currentTarget.textContent = buttonText)}
+        className='gradient-text font-medium hover:text-[1.2rem]'
+      >
+        {buttonText}
+      </button>
+    </div>
+  );
+}

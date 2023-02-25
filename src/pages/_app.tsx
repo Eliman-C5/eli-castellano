@@ -1,4 +1,3 @@
-import { Footer } from '@/components/templates/Footer/Footer'
 import { Navbar } from '@/components/templates/Navbar/Navbar'
 import { LanguageProvider } from '@/context/LanguageProvider'
 import '@/styles/globals.css'
@@ -10,7 +9,6 @@ export default function App({ Component, pageProps }: AppProps) {
     <LanguageProvider>
       <Navbar />
       <Component {...pageProps} />
-      <Footer />
     </LanguageProvider>
   )
 }

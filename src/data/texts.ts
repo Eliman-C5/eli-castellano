@@ -87,3 +87,75 @@ export const servicesDesc = {
   eng: 'You can acquire my services from Fiverr or some of my social networks',
   esp: 'Puedes adquirir mis servicios de Fiverr o alguna de mis redes sociales'
 }
+
+export const contactText = {
+  esp: [
+    {
+      id: 1,
+      text: '¿Estás buscando un desarrollador frontend de calidad para tu próximo proyecto? No busques más, ¡yo puedo ayudarte!',
+    },
+    {
+      id: 2,
+      text: 'Soy un desarrollador frontend altamente capacitado y experimentado, con una pasión por la creación de sitios web y aplicaciones atractivas, funcionales y de alta calidad. Puedo diseñar y desarrollar sitios web que se adaptan a cualquier necesidad o presupuesto.'
+    },
+    {
+      id: 3,
+      text: 'Además, mi experiencia en la implementación de tecnologías responsivas y amigables con los dispositivos móviles significa que tu sitio web o aplicación funcionará sin problemas en cualquier dispositivo o pantalla. Ya sea que necesites una nueva aplicación web para tu empresa, un sitio web personalizado para un evento o una tienda en línea, puedo ofrecerte un servicio de desarrollo frontend eficiente, confiable y de alta calidad.'
+    },
+    {
+      id: 4,
+      text: 'Si estás buscando un desarrollador frontend experimentado y altamente capacitado, ¡no dudes en contactarme! Estoy dispuesto a discutir tus necesidades y cómo puedo ayudarte a alcanzar tus objetivos en línea. ¡Estoy ansioso por trabajar contigo!'
+    }
+  ],
+  eng: [
+    {
+      id: 1,
+      text: 'Are you looking for a quality frontend developer for your next project? Look no further, I can help you!'
+    },
+    {
+      id: 2,
+      text: 'I am a highly skilled and experienced frontend developer, with a passion for creating attractive, functional, and high-quality websites and applications. I can design and develop websites that adapt to any need or budget.'
+    },
+    {
+      id: 3,
+      text: 'In addition, my experience in implementing responsive and mobile-friendly technologies means that your website or application will work seamlessly on any device or screen. Whether you need a new web application for your business, a custom website for an event, or an online store, I can offer you efficient, reliable, and high-quality frontend development services.'
+    },
+    {
+      id: 4,
+      text: `If you're looking for an experienced and highly skilled frontend developer, don't hesitate to contact me! I am willing to discuss your needs and how I can help you achieve your online goals. I am eager to work with you!`
+    }
+  ]
+}
+
+export const socialMedia = [
+  {
+    id: 1,
+    link: 'https://github.com/Eliman-C5',
+    name: 'Github'
+  },
+  {
+    id: 2,
+    link: 'https://www.linkedin.com/in/eli-castellano/',
+    name: 'Linkedin'
+  },
+  {
+    id: 3,
+    link: 'https://twitter.com/Eliman_dev',
+    name: 'Twitter'
+  },
+  {
+    id: 4,
+    link: 'https://twitter.com/Eliman_dev',
+    name: 'Instagram'
+  },
+  {
+    id: 5,
+    link: 'https://www.frontendmentor.io/profile/Eliman-C5',
+    name: 'Frontend Mentor'
+  },
+  {
+    id: 6,
+    link: 'https://www.hackerrank.com/eliman1926',
+    name: 'HackerRank'
+  },
+]

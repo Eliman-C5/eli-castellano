@@ -16,7 +16,9 @@ export const HeaderTitle = ({ styles }: HeaderTitle) => {
     <div className={`${styles} flex flex-col items-center justify-center`}>
       <Title level='h1' title={isSpanishActive ? presentation.esp : presentation.eng} />
       <Title level='h1' title={isSpanishActive ? charge.esp : charge.eng } />
-      <Button link='https://www.linkedin.com/in/eli-castellano/' text={isSpanishActive ? 'Contacto' : 'Contact'} />
+      <a href="#contact" className='animate-bounce bg-white rounded-full p-4 mt-8'>
+        <img src="assets/XMLID_348_.svg" alt="" className='w-[20px] h-[20px]' />
+      </a>
     </div>
   )
 }
