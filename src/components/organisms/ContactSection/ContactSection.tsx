@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import {SectionTitle} from '@/components/molecules/SectionTitle/SectionTitle'
 import {LanguageContext} from '@/context/LanguageProvider'
-import { AnimatedWord } from '@/components/atoms/AnimatedWord/AnimatedWord';
 import { contactText, socialMedia } from '@/data/texts';
 import { CopyToClipboard } from '@/components/atoms/CopyToClipboard/CopyToClipboard';
 import { SocialLink } from '@/components/atoms/SocialLink/SocialLink';
@@ -17,11 +16,11 @@ export const ContactSection = () => {
       
       {
         isSpanishActive ?
-          contactText.esp.map(item => <AnimatedWord key={item.id} text={item.text} className='mt-5' />) :
-          contactText.eng.map(item => <AnimatedWord key={item.id} text={item.text} className='mt-5' />)
+          contactText.esp.map(item => <p key={item.id} className='mt-5'>{item.text}</p>) :
+          contactText.eng.map(item => <p key={item.id} className='mt-5'>{item.text}</p>)
       }
       
-      <CopyToClipboard text='eliman1926@gmail.com'buttonText='eliman1926@gmail.com' styles='mt-5' />
+      <CopyToClipboard text='eliman1926@gmail.com'buttonText='eliman1926@gmail.com' styles='mt-8' />
       
       {
         socialMedia.map(item => 

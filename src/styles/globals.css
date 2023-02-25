@@ -35,6 +35,20 @@ body {
   
 }
 
+.scrollbar::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #ccc;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #44404061;
+}
+
 p {
   line-height: 170%;
   margin-bottom: 3vh;

@@ -1,7 +1,6 @@
 import React from 'react'
 import {Title} from '@/components/atoms/Title/Title'
 import {TitleProps} from '@/interfaces/app_interfaces'
-import { AnimatedWord } from '@/components/atoms/AnimatedWord/AnimatedWord'
 
 interface SectionTitleProps extends TitleProps {
   text?: string
@@ -13,9 +12,9 @@ interface SectionTitleProps extends TitleProps {
 export const SectionTitle = ({ styles, title, text }: SectionTitleProps) => {
   return (
     <div className={`${styles} flex flex-col items-center pt-[15%]`}>
-      <Title level='h2' title={title} styles='text-center' />
+      <Title level='h2' title={title} styles='text-center mb-4' />
       {
-        text && <AnimatedWord text={text} className='my-4' transition={0.04} />
+        text && <p className='my-4' >{text}</p>
       }
     </div>
   )

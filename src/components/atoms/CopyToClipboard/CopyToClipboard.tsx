@@ -1,5 +1,3 @@
-// import React, { useRef } from "react";
-
 type Props = {
   text: string;
   buttonText: string;
@@ -8,12 +6,9 @@ type Props = {
 
 export const CopyToClipboard = ({ text, buttonText, styles }: Props) => {
 
-  // const tempElementRef = useRef<HTMLTextAreaElement>(null);
-
   const handleClick = async () => {
     try {
       await navigator.clipboard.writeText(text);
-      //alert("Texto copiado al portapapeles!");
     } catch (err) {
       console.error("Error al copiar al portapapeles: ", err);
     }
@@ -21,7 +16,6 @@ export const CopyToClipboard = ({ text, buttonText, styles }: Props) => {
 
   return (
     <div className={`${styles}`}>
-      {/* <textarea ref={tempElementRef} style={{ position: "absolute", left: "-9999px" }} /> */}
       <button
         onClick={(event) => {
           event.currentTarget.textContent = 'Email was copied!'

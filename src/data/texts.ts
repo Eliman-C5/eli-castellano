@@ -65,6 +65,10 @@ export const aboutDesc= {
     {
       id: 3,
       text: `Lately, I've been creating projects using ReactJS, NextJS, TailwindCSS and Typescript. I like solving challenges on websites like Frontend Mentor and HackerRank. I currently work with a freelance client base and am open for new opportunities`
+    },
+    {
+      id: 4,
+      text: 'You can read more about my skills, experience and education in the PDF attached below:'
     }
   ],
   esp: [
@@ -79,6 +83,10 @@ export const aboutDesc= {
     {
       id: 3,
       text: `Últimamente, he estado creando proyectos usando ReactJS, NextJS, TailwindCSS y Typescript. Me gusta resolver retos retos en sitios web como Frontend Mentor y HackerRank. Actualmente trabajo con una base de clientes independientes y estoy abierto a nuevas oportunidades.`
+    },
+    {
+      id: 4,
+      text: 'Puede leer más sobre mis habilidades, experiencia y educación en el PDF adjunto a continuación:'
     }
   ]
 }
