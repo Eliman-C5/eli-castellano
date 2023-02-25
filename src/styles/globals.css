@@ -239,3 +239,25 @@ img.me {
     right: 68px;
   }
 }
+
+.portfolio-box {
+  padding-left: 10%;
+}
+
+@media screen and (min-width: 1150px) {
+  .portfolio-box {
+    padding-left: 16%;
+  }  
+}
+
+@media screen and (min-width: 1300px) {
+  .portfolio-box {
+    padding-left: 20%;
+  }  
+}
+
+/* @media screen and (min-width: 1300px) {
+  .portfolio-box {
+    padding-left: 16%;
+  }  
+} */

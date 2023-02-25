@@ -9,7 +9,7 @@ export const filterReducer = (state: State, action: Action): State => {
     switch (action.type) {
     
       case 'ALL':
-        return state.map(item => ({...item, active: true}))
+        return state.map(item => item.id <= 6 ? {...item, active: true} : {...item, active: false})
         
       case 'CHALLENGES':
         return state.map(item => item.category === 'CHALLENGES' ? {...item, active: true} : {...item, active: false})

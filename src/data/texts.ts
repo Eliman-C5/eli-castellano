@@ -58,7 +58,7 @@ export const aboutDesc= {
   eng: [
     {
       id: 1,
-      text: `I'm a frontend developer with +1 year of experience. I love develop User Interfaces (UI), and make new projects. I have brought joy to my clients with many projects and I have collaborated with designers and other programmers.`
+      text: `I'm a frontend developer with +1 year of experience. I love developing User Interfaces (UI), and make new projects. I have brought joy to my clients with many projects and I have collaborated with designers and other programmers.`
     },
     {
       id: 2,
@@ -178,41 +178,85 @@ export const portfolioText = {
 export const projects = [
   {
     id: 1,
-    name: 'Todo-app-challenge',
-    link: 'https://todo-app-challenge-lilac.vercel.app/',
-    repository: 'https://github.com/Eliman-C5/todo-app-challenge',
-    img: '',
-    category: 'CHALLENGES',
+    name: 'Launchy',
+    link: 'https://launchy.me/',
+    repository: 'https://github.com/Eliman-C5/launchy.me',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/launchy_midznk.png',
+    category: 'WORK',
     active: true
   },
   {
     id: 2,
-    name: 'Crowfunding-challenge',
-    link: 'https://eliman-c5.github.io/crowdfunding-challenge/',
-    repository: 'https://github.com/Eliman-C5/crowdfunding-challenge',
-    img: '',
-    category: 'CHALLENGES',
-    active: true,
+    name: 'Clear Tech',
+    link: 'https://cleartechsite.vercel.app/',
+    repository: 'https://github.com/Eliman-C5/cleartechsite',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/cleartech_lkb1qr.png',
+    category: 'WORK',
+    active: true
   },
   {
     id: 3,
-    name: 'Launchy',
-    link: 'https://launchy.me/',
-    repository: 'https://github.com/Eliman-C5/launchy.me',
-    img: '',
+    name: 'ITGALL',
+    link: 'https://itgall.tech/',
+    repository: 'https://github.com/Eliman-C5/itgally',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/itgall_ziflfk.png',
     category: 'WORK',
     active: true
   },
   {
     id: 4,
+    name: 'Community Electricity',
+    link: 'https://community-electricity.vercel.app/',
+    repository: 'https://github.com/Eliman-C5/community-electricity',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/community_ubdcqq.png',
+    category: 'WORK',
+    active: true
+  },
+  {
+    id: 5,
+    name: 'Todo-app-challenge',
+    link: 'https://todo-app-challenge-lilac.vercel.app/',
+    repository: 'https://github.com/Eliman-C5/todo-app-challenge',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/todo-app_hjae9p.png',
+    category: 'CHALLENGES',
+    active: true
+  },
+  {
+    id: 6,
+    name: 'Crowfunding-challenge',
+    link: 'https://eliman-c5.github.io/crowdfunding-challenge/',
+    repository: 'https://github.com/Eliman-C5/crowdfunding-challenge',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/crowdfunding-challenge_ckatin.png',
+    category: 'CHALLENGES',
+    active: true,
+  },
+  {
+    id: 7,
     name: 'Galaxy Movies',
     link: 'https://eliman-c5.github.io/galaxy-movies/',
     repository: 'https://github.com/Eliman-C5/galaxy-movies',
-    img: '',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/galaxy-movies_ir3t5e.png',
     category: 'PERSONAL',
-    active: true
+    active: false
   },
-  
+  {
+    id: 8,
+    name: 'Calculadora',
+    link: 'https://eliman-c5.github.io/Calculadora/',
+    repository: 'https://github.com/Eliman-C5/Calculadora',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/calculadora_xmytmy.png',
+    category: 'PERSONAL',
+    active: false
+  },
+  {
+    id: 9,
+    name: 'CRUD HTML CSS JS',
+    link: 'https://eliman-c5.github.io/crud-html-css-js/',
+    repository: 'https://github.com/Eliman-C5/crud-html-css-js',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364061/portfolio/crud_ubgllx.png',
+    category: 'PERSONAL',
+    active: false
+  },
 ]
 
 export const categories = [
