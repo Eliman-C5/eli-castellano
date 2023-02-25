@@ -10,9 +10,9 @@ export const ContactSection = () => {
   const {isSpanishActive, setIsSpanishActive} = useContext(LanguageContext);
 
   return (
-    <div id='contact'>
+    <div>
     
-      <SectionTitle title={isSpanishActive ? 'Contacto' : 'Contact'} />
+      <SectionTitle title={isSpanishActive ? 'Contacto' : 'Contact'} id='contact' />
       
       {
         isSpanishActive ?

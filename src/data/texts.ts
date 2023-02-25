@@ -1,3 +1,5 @@
+import { Categories } from "@/interfaces/app_interfaces"
+
 //Add spanish and english texts
 export const presentation = {
   esp: `Soy Eli Castellano`,
@@ -165,5 +167,85 @@ export const socialMedia = [
     id: 6,
     link: 'https://www.hackerrank.com/eliman1926',
     name: 'HackerRank'
+  },
+]
+
+export const portfolioText = {
+  eng: 'I have created and collaborated in many projects that allowed my clients to be part of this ecosystem and launch their website. Also, I have made my personal projects that improved my skills all this time',
+  esp: 'He creado y colaborado en muchos proyectos que permitieron a mis clientes ser parte de este ecosistema y lanzar su sitio web. Además, he realizado mis proyectos personales que mejoraron mis habilidades todo este tiempo.'
+}
+
+export const projects = [
+  {
+    id: 1,
+    name: 'Todo-app-challenge',
+    link: 'https://todo-app-challenge-lilac.vercel.app/',
+    repository: 'https://github.com/Eliman-C5/todo-app-challenge',
+    img: '',
+    category: 'CHALLENGES',
+    active: true
+  },
+  {
+    id: 2,
+    name: 'Crowfunding-challenge',
+    link: 'https://eliman-c5.github.io/crowdfunding-challenge/',
+    repository: 'https://github.com/Eliman-C5/crowdfunding-challenge',
+    img: '',
+    category: 'CHALLENGES',
+    active: true,
+  },
+  {
+    id: 3,
+    name: 'Launchy',
+    link: 'https://launchy.me/',
+    repository: 'https://github.com/Eliman-C5/launchy.me',
+    img: '',
+    category: 'WORK',
+    active: true
+  },
+  {
+    id: 4,
+    name: 'Galaxy Movies',
+    link: 'https://eliman-c5.github.io/galaxy-movies/',
+    repository: 'https://github.com/Eliman-C5/galaxy-movies',
+    img: '',
+    category: 'PERSONAL',
+    active: true
+  },
+  
+]
+
+export const categories = [
+  {
+    id: 1,
+    name: {
+      eng: 'ALL',
+      esp: 'TODOS'
+    },
+    type: 'ALL' 
+  },
+  {
+    id: 2,
+    name: {
+      eng: 'CHALENGES',
+      esp: 'RETOS'
+    },
+    type: 'CHALLENGES'
+  },
+  {
+    id: 3,
+    name: {
+      eng: 'WORK',
+      esp: 'TRABAJO'
+    },
+    type: 'WORK'
+  },
+  {
+    id: 4,
+    name: {
+      eng: 'PERSONAL',
+      esp: 'PERSONAL'
+    },
+    type: 'PERSONAL'
   },
 ]
