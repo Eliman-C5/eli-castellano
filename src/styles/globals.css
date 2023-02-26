@@ -55,7 +55,7 @@ p {
 }
 
 .title {
-  font-size: 32px;
+  font-size: 29px;
   font-weight: 600;
   line-height: 40px;
 }
@@ -195,6 +195,20 @@ img.me {
     top: -16px;
     border-bottom-left-radius: 42%;
     border-bottom-right-radius: 48%;
+  }
+}
+
+@media screen and (max-width: 780px) {  
+  img.me {
+    top: -19px;
+    border-bottom-left-radius: 46%;
+    border-bottom-right-radius: 46%;
+  }
+  
+  .image-container::before {
+    left: 0px;
+    bottom: 16px;
+    transform: rotate(0deg);
   }
 }
 

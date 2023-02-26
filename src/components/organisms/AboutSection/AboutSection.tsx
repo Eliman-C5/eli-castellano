@@ -3,6 +3,7 @@ import {SectionTitle} from '@/components/molecules/SectionTitle/SectionTitle'
 import {LanguageContext} from '@/context/LanguageProvider'
 import { aboutDesc } from '@/data/texts'
 import { Button } from '@/components/atoms/Button/Button'
+import { ImageOfMe } from '@/components/atoms/ImageOfMe/ImageOfMe'
 
 export const AboutSection = () => {
 
@@ -11,6 +12,7 @@ export const AboutSection = () => {
   return (
     <div>
       <SectionTitle title={isSpanishActive ? 'Acerca de mi' : 'About me'} />
+      <ImageOfMe styles='inline-flex justify-center w-full md:hidden' />
       <div className="mt-8 mb-16">
         {
           isSpanishActive ?
