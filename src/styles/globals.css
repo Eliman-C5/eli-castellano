@@ -212,36 +212,54 @@ img.me {
   }
 }
 
-@media screen and (min-width: 1250px) {
+ @media screen and (min-width: 1250px) {
   img.me {
     border-bottom-right-radius: 41%;
+    top: -25px;
   }
 }
 
 @media screen and (min-width: 1300px) {
-  .image-container::before {
-    left: 15px;
-    right: 15px;
-    transform: rotate(45deg);
+  .img.me {
+    top: -18px;
+    border-bottom-left-radius: 41%;
+    border-bottom-right-radius: 44%;
   }
 }
 
 @media screen and (min-width: 1400px ) {
   img.me {
-    top: -17px;
-    border-bottom-left-radius: 43%;
-    border-bottom-right-radius: 39%;
-    margin: auto;
+    top: -10px;
+    border-bottom-left-radius: 41%;
+    border-bottom-right-radius: 41%;
   }
-  
-  .image-container::before {
-    top: 50px;
-    left: 50px;
-    transform: rotate(45deg);
+}
+
+@media screen and (min-width: 1400px ) {
+  img.me {
+    top: 0px;
+    border-bottom-left-radius: 44%;
+    border-bottom-right-radius: 37%;
   }
 }
 
 @media screen and (min-width: 1600px) {
+  img.me {
+    top: 10px;
+    border-bottom-left-radius: 47%;
+    border-bottom-right-radius: 31%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  img.me {
+    top: 39px;
+    border-bottom-left-radius: 59%;
+    border-bottom-right-radius: 25%;
+  }
+}
+
+/*@media screen and (min-width: 1600px) {
   img.me {
     top: 0px;
     border-bottom-right-radius: 33%;
@@ -252,7 +270,13 @@ img.me {
   .image-container::before {
     right: 68px;
   }
-}
+} 
+
+
+    top: -32px;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 41%;
+*/
 
 .portfolio-box {
   padding-left: 10%;

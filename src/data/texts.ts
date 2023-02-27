@@ -244,7 +244,7 @@ export const projects = [
     name: 'Calculadora',
     link: 'https://eliman-c5.github.io/Calculadora/',
     repository: 'https://github.com/Eliman-C5/Calculadora',
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/calculadora_xmytmy.png',
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677455128/portfolio/descarga_-_2023-02-26T194146.789_p12qrq.png',
     category: 'PERSONAL',
     active: false
   },
@@ -271,7 +271,7 @@ export const categories = [
   {
     id: 2,
     name: {
-      eng: 'CHALENGES',
+      eng: 'CHALLENGES',
       esp: 'RETOS'
     },
     type: 'CHALLENGES'
