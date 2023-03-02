@@ -1,5 +1,3 @@
-import { Categories } from "@/interfaces/app_interfaces"
-
 //Add spanish and english texts
 export const presentation = {
   esp: `Soy Eli Castellano`,
@@ -58,37 +56,37 @@ export const aboutDesc= {
   eng: [
     {
       id: 1,
-      text: `I'm a frontend developer with +1 year of experience. I love developing User Interfaces (UI), and make new projects. I have brought joy to my clients with many projects and I have collaborated with designers and other programmers.`
+      text: `I'm a frontend developer with over a year of experience. I enjoy creating user interfaces (UI) and developing new projects. I have delighted my clients with many successful projects and have collaborated with designers and other programmers.`
     },
     {
       id: 2,
-      text: `Learning about programming took me to raise awareness about a life based on life long learning. And, while I was developing my projects I could improve my english skills at academies. I'm also a books and movies lover in my free time.`
+      text: `Learning programming has taught me the importance of lifelong learning. While developing my projects, I also improved my English skills by attending academies. In my free time, I enjoy reading books and watching movies.`
     },
     {
       id: 3,
-      text: `Lately, I've been creating projects using ReactJS, NextJS, TailwindCSS and Typescript. I like solving challenges on websites like Frontend Mentor and HackerRank. I currently work with a freelance client base and am open for new opportunities`
+      text: `Recently, I have been working on projects using ReactJS, NextJS, TailwindCSS, and Typescript. I enjoy solving challenges on websites like Frontend Mentor and HackerRank. Currently, I work with a freelance client base and am open to new opportunities.`
     },
     {
       id: 4,
-      text: 'You can read more about my skills, experience and education in the PDF attached below:'
+      text: 'Please find attached a PDF outlining my skills, experience, and education for further information.'
     }
   ],
   esp: [
     {
       id: 1,
-      text: `Soy un desarrollador frontend con +1 año de experiencia. Me encanta desarrollar interfaces de usuario (UI) y hacer nuevos proyectos. He traído alegría a mis clientes con muchos proyectos y he colaborado con diseñadores y otros programadores.`
+      text: `Soy un desarrollador frontend con más de un año de experiencia. Disfruto creando interfaces de usuario (UI) y desarrollando nuevos proyectos. He deleitado a mis clientes con muchos proyectos exitosos y he colaborado con diseñadores y otros programadores.`
     },
     {
       id: 2,
-      text: 'Aprender sobre programación me llevó a crear conciencia sobre una vida basada en el aprendizaje permanente. Y, mientras desarrollaba mis proyectos, pude mejorar mis habilidades de inglés en las academias. También soy amante de los libros y el cine en mi tiempo libre.'
+      text: 'Aprender a programar me ha enseñado la importancia del aprendizaje continuo. Mientras desarrollaba mis proyectos, también mejoré mis habilidades en inglés asistiendo a academias. En mi tiempo libre, disfruto leyendo libros y viendo películas.'
     },
     {
       id: 3,
-      text: `Últimamente, he estado creando proyectos usando ReactJS, NextJS, TailwindCSS y Typescript. Me gusta resolver retos retos en sitios web como Frontend Mentor y HackerRank. Actualmente trabajo con una base de clientes independientes y estoy abierto a nuevas oportunidades.`
+      text: `Recientemente, he estado trabajando en proyectos utilizando ReactJS, NextJS, TailwindCSS y Typescript. Disfruto resolviendo desafíos en sitios web como Frontend Mentor y HackerRank. Actualmente, trabajo con una base de clientes freelance y estoy abierto a nuevas oportunidades.`
     },
     {
       id: 4,
-      text: 'Puede leer más sobre mis habilidades, experiencia y educación en el PDF adjunto a continuación:'
+      text: 'Adjunto un PDF que detalla mis habilidades, experiencia y educación para obtener más información.'
     }
   ]
 }
