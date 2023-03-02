@@ -28,7 +28,9 @@ export const PortfolioCard = ({item}: Props) => {
                           
             <BtnLink link={item.link} text={isSpanishActive ? 'Sitio web' : 'Website'} />
             
-            <BtnLink link={item.repository} text={isSpanishActive ? 'Repositorio' : 'Repository'} />
+            {
+              item.repository && <BtnLink link={item.repository} text={isSpanishActive ? 'Repositorio' : 'Repository'} />
+            }
         
         </div>
               

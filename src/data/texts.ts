@@ -198,7 +198,7 @@ export const projects = [
     id: 3,
     name: 'ITGALL',
     link: 'https://itgall.tech/',
-    repository: 'https://github.com/Eliman-C5/itgally',
+    repository: false,
     img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/itgall_ziflfk.png',
     category: 'WORK',
     active: true
@@ -206,8 +206,8 @@ export const projects = [
   {
     id: 4,
     name: 'Community Electricity',
-    link: 'https://community-electricity.vercel.app/',
-    repository: 'https://github.com/Eliman-C5/community-electricity',
+    link: 'https://www.communityelectricity.io/',
+    repository: false,
     img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/community_ubdcqq.png',
     category: 'WORK',
     active: true
