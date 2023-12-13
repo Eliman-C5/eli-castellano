@@ -4,7 +4,7 @@ import { Section } from '../Wrapper/Section'
 
 export const Contact = () => {
   return (
-    <Section>
+    <Section styles='mt-[40px] pb-[40px] md:mt-[80px] md:pb-[80px]'>
       <ContactSection />
     </Section>
   )

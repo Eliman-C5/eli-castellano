@@ -148,23 +148,8 @@ export const socialMedia = [
   },
   {
     id: 3,
-    link: 'https://twitter.com/Eliman_dev',
-    name: 'Twitter'
-  },
-  {
-    id: 4,
-    link: 'https://twitter.com/Eliman_dev',
+    link: 'https://www.instagram.com/eliman_dev',
     name: 'Instagram'
-  },
-  {
-    id: 5,
-    link: 'https://www.frontendmentor.io/profile/Eliman-C5',
-    name: 'Frontend Mentor'
-  },
-  {
-    id: 6,
-    link: 'https://www.hackerrank.com/eliman1926',
-    name: 'HackerRank'
   },
 ]
 
@@ -178,116 +163,90 @@ export const projects = [
     id: 1,
     name: 'Launchy',
     link: 'https://launchy.me/',
-    repository: 'https://github.com/Eliman-C5/launchy.me',
+    info: {
+      eng: `Launchy is Website with 3D effects that improved the agency's brand`,
+      esp: `Launchy es un sitio web con efectos 3D que mejoró la marca de la agencia `
+    },
     img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/launchy_midznk.png',
-    category: 'WORK',
-    active: true
   },
   {
     id: 2,
-    name: 'Clear Tech',
-    link: 'https://cleartechsite.vercel.app/',
-    repository: 'https://github.com/Eliman-C5/cleartechsite',
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/cleartech_lkb1qr.png',
-    category: 'WORK',
-    active: true
+    name: 'ITGALL',
+    link: 'https://itgall.tech/',
+    info: {
+      eng: 'Once ITGALL was developed, they could reach more people away from Galicia. This helped them to gain more traffic',
+      esp: 'Una vez ITGALL fue desarrollado, llegaron a más gente lejos de Galicia. Esto los ayudó a generar más tráfico'
+    },
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/itgall_ziflfk.png',
   },
   {
     id: 3,
-    name: 'ITGALL',
-    link: 'https://itgall.tech/',
-    repository: false,
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/itgall_ziflfk.png',
-    category: 'WORK',
-    active: true
+    name: 'Community Electricity',
+    link: 'https://www.communityelectricity.io/',
+    info: {
+      eng: 'Project developed for a climate startup',
+      esp: 'Proyecto desarrollado para una Startup climática.'
+    },
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/community_ubdcqq.png',
   },
   {
     id: 4,
-    name: 'Community Electricity',
-    link: 'https://www.communityelectricity.io/',
-    repository: false,
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/community_ubdcqq.png',
-    category: 'WORK',
-    active: true
+    name: 'Alzheimer Web App',
+    link: 'https://alzheimer-app.vercel.app/',
+    info: {
+      eng: `Side projects created for people that suffers alzheimer. It´s an open source project`,
+      esp: 'Proyecto creado para las personas que sufren alzheimer. Es un proyecto Open Source'
+    },
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1702491186/portfolio/hifpygodt8xunf4yhhck.png',
   },
   {
     id: 5,
-    name: 'Todo-app-challenge',
-    link: 'https://todo-app-challenge-lilac.vercel.app/',
-    repository: 'https://github.com/Eliman-C5/todo-app-challenge',
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/todo-app_hjae9p.png',
-    category: 'CHALLENGES',
-    active: true
+    name: 'Clear Tech',
+    link: 'https://cleartechsite.vercel.app/',
+    info: {
+      eng: 'Clear Tech is a website developed with NextJS',
+      esp: 'Clear Tech es un sitio web desarrollado con NextJS'
+    },
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/cleartech_lkb1qr.png',
   },
   {
     id: 6,
-    name: 'Crowfunding-challenge',
-    link: 'https://eliman-c5.github.io/crowdfunding-challenge/',
-    repository: 'https://github.com/Eliman-C5/crowdfunding-challenge',
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/crowdfunding-challenge_ckatin.png',
-    category: 'CHALLENGES',
-    active: true,
+    name: 'Puertamatic',
+    link: 'https://puertamatic.es/',
+    info: {
+      eng: 'Puertamatic is a company dedicated to sell doors. This redesign allowed them to improve user experience',
+      esp: 'Puertamatic es una compañia dedicada a vender puertas. Este rediseño les pemitió mejorar la experiencia de usuario'
+    },
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1702489796/portfolio/mvlm27eiqkcvcsptnifs.png',
   },
   {
     id: 7,
-    name: 'Galaxy Movies',
-    link: 'https://eliman-c5.github.io/galaxy-movies/',
-    repository: 'https://github.com/Eliman-C5/galaxy-movies',
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/galaxy-movies_ir3t5e.png',
-    category: 'PERSONAL',
-    active: false
+    name: 'Cardador y Marín',
+    link: 'https://cardadormarin.com/',
+    info: {
+      esp: 'Website created for Cardador and Marín, an firm of innovative lawyers',
+      eng: 'Sitio web creado para Cardador y Marín, una firma de abogados innovadores'
+    },
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1702489796/portfolio/wyhrtrg5j1ooychlnfhn.png',
   },
   {
     id: 8,
-    name: 'Calculadora',
-    link: 'https://eliman-c5.github.io/Calculadora/',
-    repository: 'https://github.com/Eliman-C5/Calculadora',
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677455128/portfolio/descarga_-_2023-02-26T194146.789_p12qrq.png',
-    category: 'PERSONAL',
-    active: false
-  },
-  {
-    id: 9,
-    name: 'CRUD HTML CSS JS',
-    link: 'https://eliman-c5.github.io/crud-html-css-js/',
-    repository: 'https://github.com/Eliman-C5/crud-html-css-js',
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364061/portfolio/crud_ubgllx.png',
-    category: 'PERSONAL',
-    active: false
-  },
-]
-
-export const categories = [
-  {
-    id: 1,
-    name: {
-      eng: 'ALL',
-      esp: 'TODOS'
+    name: 'Libreria y jugueteria el globo',
+    link: 'https://libreriayjugueteriaelglobo.com/',
+    info: {
+      eng: 'Landing Page developed with WordPress in collaboration with Gurú Creativos',
+      esp: 'Landing Page desarrollado con WordPress en colaboracion con Gurú Creativos'
     },
-    type: 'ALL' 
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1702489796/portfolio/a1ffhrxpptfjedtknpin.png',
   },
   {
-    id: 2,
-    name: {
-      eng: 'CHALLENGES',
-      esp: 'RETOS'
+    id: 6,
+    name: 'Todo App with Dark Mode',
+    link: 'https://todo-app-challenge-lilac.vercel.app/',
+    info: {
+      eng: 'Pixel perfect design of a crowfunding website',
+      esp: 'Diseño pixel perfect de un sitio web de crowfunding'
     },
-    type: 'CHALLENGES'
-  },
-  {
-    id: 3,
-    name: {
-      eng: 'WORK',
-      esp: 'TRABAJO'
-    },
-    type: 'WORK'
-  },
-  {
-    id: 4,
-    name: {
-      eng: 'PERSONAL',
-      esp: 'PERSONAL'
-    },
-    type: 'PERSONAL'
+    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/todo-app_hjae9p.png',
   },
 ]

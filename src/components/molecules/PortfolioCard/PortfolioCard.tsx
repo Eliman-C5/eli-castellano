@@ -10,30 +10,26 @@ type Props = {
 export const PortfolioCard = ({item}: Props) => {
 
   const {isSpanishActive, setIsSpanishActive} = useContext(LanguageContext);
-  const [cardInfo, setCardInfo] = useState<boolean>(false);
 
   return (
-      <div 
-        className={`max-w-[360px] w-full h-[250px] relative shadow-xl shadow-[#44404061]`} 
-        onMouseOver={() => setCardInfo(true)}
-        onMouseLeave={() => setCardInfo(false)}
-      >
-                            
-        <img src={item.img} alt={item.name} className='absolute top-0 right-0 left-0 bottom-0 h-full bg-cover' />
-              
-        <div 
-          className={`${cardInfo ? 'flex' : 'hidden'} flex-col justify-center items-center bg-[#44404061] gap-4 
-          absolute top-0 right-0 left-0 bottom-0 z-10`}
-        >
-                          
-            <BtnLink link={item.link} text={isSpanishActive ? 'Sitio web' : 'Website'} />
-            
-            {
-              item.repository && <BtnLink link={item.repository} text={isSpanishActive ? 'Repositorio' : 'Repository'} />
-            }
-        
+      <div className="card w-96 bg-base-100 shadow-xl">
+        <figure className='h-[188px]'>
+          <img src={item.img} alt={item.name} className='h-full' />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">{item.name}</h2>
+          <p>{isSpanishActive ? item.info.esp : item.info.eng}</p>
+          <div className="card-actions justify-end">
+            <a 
+              className="btn btn-primary" 
+              href={item.link} 
+              target="_blank"
+              rel='noreferrer'
+            >
+              {isSpanishActive ? 'Ver sitio web' : 'Visit Website'}
+            </a>
+          </div>
         </div>
-              
       </div>
   )
 }

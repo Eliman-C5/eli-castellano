@@ -5,7 +5,7 @@ export const LanguageContext = createContext<TranslateMode>({} as TranslateMode)
 
 export const LanguageProvider = ({ children }: ContainerProp) => {
 
-  const [isSpanishActive, setIsSpanishActive] = useState<boolean>(false)
+  const [isSpanishActive, setIsSpanishActive] = useState<boolean>(true)
 
   return (
     <LanguageContext.Provider value={{

@@ -3,15 +3,15 @@ import { Projects } from '@/interfaces/app_interfaces';
 import { PortfolioCard } from '../PortfolioCard/PortfolioCard';
 
 type Props = {
-  filter: Projects[]
+  portfolio: Projects[]
 }
 
-export const PortfolioProjects = ({filter}: Props) => {
+export const PortfolioProjects = ({portfolio}: Props) => {
 
   return (
-    <div className="flex flex-wrap justify-center gap-4 mt-8">
+    <div className="flex flex-wrap justify-center gap-4 lg:gap-8 mt-8">
         {
-          filter.map(item => (item.active &&
+          portfolio.map(item => (
             <PortfolioCard key={item.id} item={item} />
           ))
         }
