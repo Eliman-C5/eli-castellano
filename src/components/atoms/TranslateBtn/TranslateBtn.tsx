@@ -11,12 +11,12 @@ export const TranslateBtn = ({styles = ''}: TranslateProps) => {
   
   return (
     <div className={`flex gap-4 ${styles} items-center`}>
-      <span className='text-white'>EN</span>
+      <span className='text-white'>ES</span>
         <label className="switch">
           <input type="checkbox" onClick={() => setIsSpanishActive(!isSpanishActive)} />
           <span className="slider round"></span>
         </label>
-      <span className='text-white'>ES</span>
+      <span className='text-white'>EN</span>
     </div>
   )
 }

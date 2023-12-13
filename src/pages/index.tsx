@@ -7,6 +7,7 @@ import { About } from '@/components/templates/About/About'
 import { Portfolio } from '@/components/templates/Portfolio/Portfolio'
 import { Services } from '@/components/templates/Services/Services'
 import { Contact } from '@/components/templates/Contact/Contact'
+import { WhatsappBtn } from '@/components/atoms/WhatsappBtn/WhatsappBtn'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Portfolio />
         <Services />
         <Contact />
+        <WhatsappBtn />
       </main>
     </>
   )

@@ -224,8 +224,8 @@ export const projects = [
     name: 'Cardador y Marín',
     link: 'https://cardadormarin.com/',
     info: {
-      esp: 'Website created for Cardador and Marín, an firm of innovative lawyers',
-      eng: 'Sitio web creado para Cardador y Marín, una firma de abogados innovadores'
+      eng: 'Website created for Cardador and Marín, an firm of innovative lawyers',
+      esp: 'Sitio web creado para Cardador y Marín, una firma de abogados innovadores'
     },
     img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1702489796/portfolio/wyhrtrg5j1ooychlnfhn.png',
   },
@@ -244,8 +244,8 @@ export const projects = [
     name: 'Todo App with Dark Mode',
     link: 'https://todo-app-challenge-lilac.vercel.app/',
     info: {
-      eng: 'Pixel perfect design of a crowfunding website',
-      esp: 'Diseño pixel perfect de un sitio web de crowfunding'
+      eng: 'Todo list app witn dark mode',
+      esp: 'Aplicación de lista de tareas que incluye dark mode'
     },
     img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/todo-app_hjae9p.png',
   },
