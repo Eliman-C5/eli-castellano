@@ -23,7 +23,7 @@ export const CopyToClipboard = ({ text, buttonText, styles }: Props) => {
         }}
         onMouseEnter={(event) => (event.currentTarget.textContent = "Copy to clipboard")}
         onMouseLeave={(event) => (event.currentTarget.textContent = buttonText)}
-        className='gradient-text font-medium hover:text-[1.2rem]'
+        className='text-primary font-medium hover:text-[1.2rem]'
       >
         {buttonText}
       </button>

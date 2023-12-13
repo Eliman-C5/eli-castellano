@@ -5,7 +5,7 @@ import { Inter } from '@next/font/google'
 import { Header } from '@/components/templates/Header/Header'
 import { About } from '@/components/templates/About/About'
 import { Portfolio } from '@/components/templates/Portfolio/Portfolio'
-import { Services } from '@/components/templates/Services/Services'
+import { Experience } from '@/components/templates/Experience/Experience'
 import { Contact } from '@/components/templates/Contact/Contact'
 import { WhatsappBtn } from '@/components/atoms/WhatsappBtn/WhatsappBtn'
 
@@ -20,8 +20,8 @@ export default function Home() {
       <main>
         <Header />
         <About />
+        <Experience />
         <Portfolio />
-        <Services />
         <Contact />
         <WhatsappBtn />
       </main>

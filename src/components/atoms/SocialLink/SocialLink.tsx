@@ -15,7 +15,7 @@ export const SocialLink = ({item}: Props) => {
     <div className='flex items-center gap-4 mt-3' >
         <a 
           href={link} 
-          className='gradient-text font-medium hover:text-[1.2rem]'
+          className='text-primary font-medium hover:text-[1.2rem]'
           target="_blank" 
           rel="noopener noreferrer"
         > 

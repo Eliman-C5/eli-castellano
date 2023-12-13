@@ -4,7 +4,7 @@ import { Section } from '../Wrapper/Section'
 
 export const Header = () => {
   return (
-    <Section styles='mt-[40px] mb-[40px] md:mb-[80px]'>
+    <Section styles='mt-[250px] mb-[150px] md:my-[80px]'>
       <HeaderSection />
     </Section>
   )

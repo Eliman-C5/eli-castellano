@@ -10,7 +10,7 @@ export const AboutSection = () => {
   const {isSpanishActive, setIsSpanishActive} = useContext(LanguageContext);
   
   return (
-    <div>
+    <div className='flex flex-col items-center'>
       <SectionTitle title={isSpanishActive ? 'Acerca de mi' : 'About me'} />
       <ImageOfMe styles='inline-flex justify-center w-full md:hidden' />
       <div className="mt-8 mb-16">
@@ -22,7 +22,7 @@ export const AboutSection = () => {
               <p key={item.id} className=''>{item.text}</p>)
         }
       </div>
-      <Button link='assets/Eli_Castellano_.pdf' text={isSpanishActive ? 'Descargar CV' : 'Download CV'} styles='border border-white block w-fit py-3 px-8 hover:bg-white hover:text-black mx-auto' />
+      <Button link='assets/Eli_Castellano_Software_Developer.pdf' text={isSpanishActive ? 'Descargar CV' : 'Download CV'} styles='btn-primary' />
     </div>
   )
 }

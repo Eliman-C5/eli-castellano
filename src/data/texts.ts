@@ -1,12 +1,12 @@
 //Add spanish and english texts
 export const presentation = {
-  esp: `Soy Eli Castellano`,
-  eng: `I'm Eli Castellano`
+  esp: `No diseño webs, diseño negocios. `,
+  eng: `I don´t design webs, I design business`
 }
 
-export const charge = {
-  esp: 'Desarrollador Frontend',
-  eng: 'Frontend Developer'
+export const subTitle = {
+  esp: 'Si estás listo para hacer crecer tu negocio en la web, contáctame',
+  eng: 'If you are ready to grow your business on the web, reach me out'
 }
 
 export const servicesTexts = {
@@ -238,15 +238,5 @@ export const projects = [
       esp: 'Landing Page desarrollado con WordPress en colaboracion con Gurú Creativos'
     },
     img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1702489796/portfolio/a1ffhrxpptfjedtknpin.png',
-  },
-  {
-    id: 6,
-    name: 'Todo App with Dark Mode',
-    link: 'https://todo-app-challenge-lilac.vercel.app/',
-    info: {
-      eng: 'Todo list app witn dark mode',
-      esp: 'Aplicación de lista de tareas que incluye dark mode'
-    },
-    img: 'https://res.cloudinary.com/datsipxkz/image/upload/v1677364062/portfolio/todo-app_hjae9p.png',
   },
 ]

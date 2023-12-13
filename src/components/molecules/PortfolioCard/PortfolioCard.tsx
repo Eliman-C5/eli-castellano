@@ -21,7 +21,7 @@ export const PortfolioCard = ({item}: Props) => {
           <p>{isSpanishActive ? item.info.esp : item.info.eng}</p>
           <div className="card-actions justify-end">
             <a 
-              className="btn btn-primary" 
+              className="btn  btn-primary" 
               href={item.link} 
               target="_blank"
               rel='noreferrer'
