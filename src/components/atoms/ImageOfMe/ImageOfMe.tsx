@@ -6,8 +6,8 @@ type Props = {
 
 export const ImageOfMe = ({styles}: Props) => {
   return (
-    <div className={`${styles} image-container`}>
-        <img className='me' src="assets/my-picture-removebg-preview.png" alt="assets/my-picture-removebg-preview.png" />
+    <div className={`${styles}`}>
+        <img className='' src="assets/my-picture-removebg-preview.png" alt="assets/my-picture-removebg-preview.png" />
     </div>
   )
 }

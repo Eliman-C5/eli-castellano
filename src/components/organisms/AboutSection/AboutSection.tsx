@@ -22,7 +22,7 @@ export const AboutSection = () => {
               <p key={item.id} className=''>{item.text}</p>)
         }
       </div>
-      <Button link='assets/Eli_Castellano_Software_Developer.pdf' text={isSpanishActive ? 'Descargar CV' : 'Download CV'} styles='btn-primary' />
+      <Button link='assets/Eli_Castellano_Software_Developer.pdf' text={isSpanishActive ? 'Descargar CV' : 'Download CV'} styles='bg-blue-500 hover:bg-blue-700 text-black' />
     </div>
   )
 }

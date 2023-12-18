@@ -56,36 +56,28 @@ export const aboutDesc= {
   eng: [
     {
       id: 1,
-      text: `I'm a frontend developer with over a year of experience. I enjoy creating user interfaces (UI) and developing new projects. I have delighted my clients with many successful projects and have collaborated with designers and other programmers.`
+      text: `I am a programmer with extensive experience creating applications and websites, managing to improve my clients' businesses. I have participated in many successful projects and have collaborated with designers and other programmers.`
     },
     {
       id: 2,
-      text: `Learning programming has taught me the importance of lifelong learning. While developing my projects, I also improved my English skills by attending academies. In my free time, I enjoy reading books and watching movies.`
+      text: `Learning to program has taught me the importance of continuous learning. While developing my projects, I also improved my English skills by attending academies.`
     },
     {
       id: 3,
-      text: `Recently, I have been working on projects using ReactJS, NextJS, TailwindCSS, and Typescript. I enjoy solving challenges on websites like Frontend Mentor and HackerRank. Currently, I work with a freelance client base and am open to new opportunities.`
-    },
-    {
-      id: 4,
-      text: 'Please find attached a PDF outlining my skills, experience, and education for further information.'
+      text: 'I am attaching a PDF detailing my skills, experience and education for more information.'
     }
   ],
   esp: [
     {
       id: 1,
-      text: `Soy un desarrollador frontend con más de un año de experiencia. Disfruto creando interfaces de usuario (UI) y desarrollando nuevos proyectos. He deleitado a mis clientes con muchos proyectos exitosos y he colaborado con diseñadores y otros programadores.`
+      text: `Soy un programador con amplia experiencia creando aplicaciones y sitios web logrando mejorar los negocios de mis clientes. He participado en muchos proyectos exitosos y he colaborado con diseñadores y otros programadores.`
     },
     {
       id: 2,
-      text: 'Aprender a programar me ha enseñado la importancia del aprendizaje continuo. Mientras desarrollaba mis proyectos, también mejoré mis habilidades en inglés asistiendo a academias. En mi tiempo libre, disfruto leyendo libros y viendo películas.'
+      text: 'Aprender a programar me ha enseñado la importancia del aprendizaje continuo. Mientras desarrollaba mis proyectos, también mejoré mis habilidades en inglés asistiendo a academias.'
     },
     {
       id: 3,
-      text: `Recientemente, he estado trabajando en proyectos utilizando ReactJS, NextJS, TailwindCSS y Typescript. Disfruto resolviendo desafíos en sitios web como Frontend Mentor y HackerRank. Actualmente, trabajo con una base de clientes freelance y estoy abierto a nuevas oportunidades.`
-    },
-    {
-      id: 4,
       text: 'Adjunto un PDF que detalla mis habilidades, experiencia y educación para obtener más información.'
     }
   ]
@@ -100,37 +92,29 @@ export const contactText = {
   esp: [
     {
       id: 1,
-      text: '¿Estás buscando un desarrollador frontend de calidad para tu próximo proyecto? No busques más, ¡yo puedo ayudarte!',
+      text: '¿Estás buscando sacar adelante tu proyecto en la web? No busques más, ¡yo puedo ayudarte!',
     },
     {
       id: 2,
-      text: 'Soy un desarrollador frontend altamente capacitado y experimentado, con una pasión por la creación de sitios web y aplicaciones atractivas, funcionales y de alta calidad. Puedo diseñar y desarrollar sitios web que se adaptan a cualquier necesidad o presupuesto.'
+      text: 'Soy un programador altamente capacitado y experimentado, con una pasión por la negocios digitales. Ya sea que necesites una aplicación, un sitio web o una tienda en línea, puedo ayudarte a hacerlo realidad'
     },
     {
       id: 3,
-      text: 'Además, mi experiencia en la implementación de tecnologías responsivas y amigables con los dispositivos móviles significa que tu sitio web o aplicación funcionará sin problemas en cualquier dispositivo o pantalla. Ya sea que necesites una nueva aplicación web para tu empresa, un sitio web personalizado para un evento o una tienda en línea, puedo ofrecerte un servicio de desarrollo frontend eficiente, confiable y de alta calidad.'
+      text: 'Estoy dispuesto a discutir tus necesidades y cómo puedo ayudarte a alcanzar tus objetivos en línea. ¡Estoy ansioso por trabajar contigo!'
     },
-    {
-      id: 4,
-      text: 'Si estás buscando un desarrollador frontend experimentado y altamente capacitado, ¡no dudes en contactarme! Estoy dispuesto a discutir tus necesidades y cómo puedo ayudarte a alcanzar tus objetivos en línea. ¡Estoy ansioso por trabajar contigo!'
-    }
   ],
   eng: [
     {
       id: 1,
-      text: 'Are you looking for a quality frontend developer for your next project? Look no further, I can help you!'
+      text: 'Are you looking to move your project forward on the web? Look no further, I can help you!'
     },
     {
       id: 2,
-      text: 'I am a highly skilled and experienced frontend developer, with a passion for creating attractive, functional, and high-quality websites and applications. I can design and develop websites that adapt to any need or budget.'
+      text: 'I am a highly trained and experienced programmer, with a passion for digital business. Whether you need an app, website or online store, I can help you make it happen'
     },
     {
       id: 3,
-      text: 'In addition, my experience in implementing responsive and mobile-friendly technologies means that your website or application will work seamlessly on any device or screen. Whether you need a new web application for your business, a custom website for an event, or an online store, I can offer you efficient, reliable, and high-quality frontend development services.'
-    },
-    {
-      id: 4,
-      text: `If you're looking for an experienced and highly skilled frontend developer, don't hesitate to contact me! I am willing to discuss your needs and how I can help you achieve your online goals. I am eager to work with you!`
+      text: `I am willing to discuss your needs and how I can help you achieve your online goals. I look forward to working with you!`
     }
   ]
 }
