@@ -96,7 +96,7 @@ export const contactText = {
     },
     {
       id: 2,
-      text: 'Soy un programador altamente capacitado y experimentado, con una pasión por la negocios digitales. Ya sea que necesites una aplicación, un sitio web o una tienda en línea, puedo ayudarte a hacerlo realidad'
+      text: 'Soy un programador altamente capacitado y experimentado, con una pasión por los negocios digitales. Ya sea que necesites una aplicación, un sitio web o una tienda en línea, puedo ayudarte a hacerlo realidad'
     },
     {
       id: 3,
@@ -132,6 +132,11 @@ export const socialMedia = [
   },
   {
     id: 3,
+    link: 'https://www.tiktok.com/@eliman.dev?_t=8iI3yVnfHp0&_r=1',
+    name: 'TikTok'
+  },
+  {
+    id: 4,
     link: 'https://www.instagram.com/eliman_dev',
     name: 'Instagram'
   },

@@ -12,7 +12,7 @@ export const AboutSection = () => {
   return (
     <div className='flex flex-col items-center'>
       <SectionTitle title={isSpanishActive ? 'Acerca de mi' : 'About me'} />
-      <ImageOfMe styles='inline-flex justify-center w-full md:hidden' />
+      <ImageOfMe styles='flex justify-center w-full md:hidden' />
       <div className="mt-8 mb-16">
         {
           isSpanishActive ?
