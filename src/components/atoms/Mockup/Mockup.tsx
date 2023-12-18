@@ -10,7 +10,9 @@ export const Mockup = ({styles}: MockupProps) => {
         <div className="camera"></div> 
         <div className="display">
           <div className="artboard artboard-demo phone-1">
-            <video src="https://res.cloudinary.com/datsipxkz/video/upload/v1702916344/slghjqkoqor76i1eaj5t.mp4" autoPlay loop controls></video>
+            <video width={320} loop controls>
+              <source src="https://res.cloudinary.com/datsipxkz/video/upload/v1702916344/slghjqkoqor76i1eaj5t.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>
